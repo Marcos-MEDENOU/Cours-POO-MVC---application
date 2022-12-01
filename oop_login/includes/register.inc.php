@@ -22,5 +22,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["register"])) {
     
     header("Location: ../login.php?msg=success");
 } else {
-    header("Location: ../index.php");
+    //header("Location: ../index.php");
 }
